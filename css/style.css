@@ -1,0 +1,110 @@
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/SEGOEUI.TTF);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: myFont;
+    color: #fff;
+}
+
+
+/* .container-fluid,
+.row,
+.container {
+    height: 100%;
+} */
+
+.primaryColor {
+    color: #C02F1D !important;
+}
+
+.bgColor {
+    color: #1A1818;
+}
+
+.logo img {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+
+/* navBar part */
+
+.nav ul {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    display: inline-block;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav ul li a {
+    padding: 5px 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+/* dropDown menu part */
+
+.dropDown {
+    font-size: 17px;
+    color: #fff;
+    list-style: none;
+    float: right;
+}
+
+.dropDown li p {
+    width: 140px;
+    margin: 0;
+    padding: 0 8px;
+    border: 1px solid red;
+    display: inline-block;
+    color: #C02F1D;
+    transition: .5s all;
+}
+
+.dropDown li {
+    opacity: 0;
+    transition: .5s all;
+}
+
+.dropDown li:nth-child(1) {
+    display: block;
+    opacity: 1;
+}
+
+.dropDown li:nth-child(1) p {
+    padding: 8px;
+}
+
+.dropDown:hover li {
+    opacity: 1;
+    transition: .5s all;
+}
+
+.dropDown:hover li p {
+    padding: 8px;
+    transition: .5s all;
+}
+
+
+/* card part */
+
+.label {
+    font-size: 21px;
+}
