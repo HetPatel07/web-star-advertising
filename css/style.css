@@ -219,3 +219,68 @@
         .imgToggle {
             text-align: end;
         }
+        /* client part */
+        
+        .client {
+            height: 166px;
+            background-color: #1E1D1D;
+        }
+        /* form part */
+        
+        .formImg {
+            text-align: right;
+        }
+        
+        .formLeft {
+            position: relative;
+        }
+        
+        .formLeft::after {
+            content: '';
+            width: 530px;
+            height: 445px;
+            position: absolute;
+            top: 20%;
+            z-index: -1;
+            left: -200px;
+            background: #1E1D1D;
+        }
+        
+        .input {
+            background-color: #1E1D1D;
+            display: flex;
+            width: 100%;
+            padding: 15px 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        .formContent .fa {
+            color: #C02F1D;
+        }
+        
+        .fa {
+            margin: 0 10px;
+            font-size: 50px;
+            color: #727171;
+        }
+        
+        input,
+        textarea {
+            height: 100%;
+            background: transparent;
+            width: 100%;
+            padding: 0 5px;
+            border: 0;
+            font-size: 16px;
+            color: #727171;
+        }
+        
+        input:focus,
+        textarea:focus {
+            outline: none;
+        }
+        
+        textarea {
+            width: 100%;
+        }
