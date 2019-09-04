@@ -142,7 +142,8 @@
             position: relative;
         }
         
-        .aboutContent {
+        .aboutContent,
+        .serviceContent {
             width: 80%;
             background-color: #1E1D1D;
             padding: 20px;
@@ -183,4 +184,38 @@
         .mainPara {
             color: #727171;
             font-size: 18px;
+        }
+        /* services part */
+        
+        .serviceContent {
+            width: 90%;
+        }
+        
+        .serviceContentToggle {
+            left: 0;
+            justify-content: flex-start;
+        }
+        
+        .firstService {
+            position: relative;
+            margin: 100px 0;
+        }
+        
+        .servicesContentMain {
+            width: 75%;
+        }
+        
+        .servicesContentMain h2 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            font-size: 26px;
+        }
+        
+        .servicesContentMain p {
+            font-size: 18px;
+            color: #727171;
+        }
+        
+        .imgToggle {
+            text-align: end;
         }
