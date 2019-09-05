@@ -67,7 +67,7 @@
         }
         
         .dropDown li p {
-            width: 140px;
+            width: 150px;
             margin: 0;
             padding: 0 8px;
             border: 1px solid red;
@@ -140,6 +140,20 @@
         
         .aboutMain {
             position: relative;
+        }
+        
+        .imgMain {
+            position: relative;
+        }
+        
+        .imgMain::after {
+            content: '';
+            position: absolute;
+            bottom: 1px;
+            left: 0;
+            width: 222px;
+            height: 5px;
+            background-color: #C02F1D;
         }
         
         .aboutContent,
@@ -235,14 +249,18 @@
             position: relative;
         }
         
-        .formLeft::after {
+        .formMain {
+            position: relative;
+        }
+        
+        .formMain::after {
             content: '';
-            width: 530px;
-            height: 445px;
+            width: 620px;
+            height: 460px;
             position: absolute;
             top: 20%;
+            left: 0;
             z-index: -1;
-            left: -200px;
             background: #1E1D1D;
         }
         
@@ -257,6 +275,10 @@
         
         .formContent .fa {
             color: #C02F1D;
+        }
+        
+        .formContent p span {
+            font-size: 14px;
         }
         
         .fa {
@@ -283,4 +305,5 @@
         
         textarea {
             width: 100%;
+            resize: none;
         }

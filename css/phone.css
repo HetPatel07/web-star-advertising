@@ -1,0 +1,28 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .cardMain {
+        text-align: center;
+    }
+    /* about part */
+    .aboutContent {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: transparent;
+    }
+    .aboutContent::after {
+        height: 0;
+    }
+    .aboutContentInner {
+        width: 100%;
+    }
+    .imgMain {
+        text-align: center;
+    }
+    .imgMain::after {
+        right: 225px;
+        margin: auto;
+    }
+}
