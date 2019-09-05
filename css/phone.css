@@ -5,7 +5,8 @@
         text-align: center;
     }
     /* about part */
-    .aboutContent {
+    .aboutContent,
+    .serviceContent {
         position: relative;
         top: 0;
         left: 0;

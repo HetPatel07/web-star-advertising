@@ -112,6 +112,7 @@
             left: 50%;
             transform: translateX(-50%);
             padding: 15px 25px;
+            transition: .3s all;
             border: 1px solid #C02F1D;
             text-decoration: none;
             color: #fff;
@@ -130,6 +131,11 @@
             transition: .3s all;
             width: 24px;
             background-color: #C02F1D;
+        }
+        
+        .loadMore:hover {
+            transition: .3s all;
+            color: #C02F1D;
         }
         
         .loadMore:hover:after {

@@ -25,4 +25,12 @@
             right: 225px;
             margin: auto;
         }
+        /* services part */
+        .serviceContent {
+            position: relative;
+            width: 100%;
+        }
+        .servicesContentMain {
+            width: 100%;
+        }
     }
