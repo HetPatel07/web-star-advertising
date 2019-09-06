@@ -54,7 +54,6 @@
             padding: 5px 15px;
             color: #FFFFFF;
             text-decoration: none;
-            font-size: 0;
             transition: .5s all;
             font-weight: 500;
         }
@@ -154,6 +153,7 @@
         
         .imgMain {
             position: relative;
+            display: inline-block;
         }
         
         .imgMain::after {
@@ -164,6 +164,23 @@
             width: 222px;
             height: 5px;
             background-color: #C02F1D;
+        }
+        
+        .imgMain::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            width: 100%;
+            background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 69, 69) 100%);
+            opacity: .5;
+            transition: 1s all;
+        }
+        
+        .imgMain:hover:before {
+            opacity: 0;
+            transition: 1s all;
         }
         
         .aboutContent,
