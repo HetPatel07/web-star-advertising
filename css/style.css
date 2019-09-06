@@ -156,6 +156,10 @@
             display: inline-block;
         }
         
+        .imgMain img {
+            width: 445px;
+        }
+        
         .imgMain::after {
             content: '';
             position: absolute;
@@ -230,6 +234,28 @@
         
         .serviceContent {
             width: 90%;
+        }
+        
+        .serviceImg {
+            display: inline-block;
+            position: relative;
+        }
+        
+        .serviceImg::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            content: '';
+            background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 69, 69) 100%);
+            opacity: .5;
+            transition: 1s all;
+        }
+        
+        .firstService:hover .serviceImg::after {
+            opacity: 0;
+            transition: 1s all;
         }
         
         .serviceContentToggle {
