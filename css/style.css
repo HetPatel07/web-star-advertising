@@ -247,6 +247,9 @@
         .client {
             height: 166px;
             background-color: #1E1D1D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         /* form part */
         
