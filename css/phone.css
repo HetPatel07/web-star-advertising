@@ -71,6 +71,9 @@
     .imgMain {
         text-align: center;
     }
+    .imgMain img {
+        width: 100%;
+    }
     .imgMain::after {
         right: 225px;
         margin: auto;
