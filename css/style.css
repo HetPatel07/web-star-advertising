@@ -54,7 +54,8 @@
             padding: 5px 15px;
             color: #FFFFFF;
             text-decoration: none;
-            font-size: 21px;
+            font-size: 0;
+            transition: .5s all;
             font-weight: 500;
         }
         /* dropDown menu part */
@@ -112,7 +113,7 @@
             left: 50%;
             transform: translateX(-50%);
             padding: 15px 25px;
-            transition: .3s all;
+            transition: .5s all;
             border: 1px solid #C02F1D;
             text-decoration: none;
             color: #fff;
@@ -131,19 +132,19 @@
             bottom: 0;
             z-index: 11;
             height: 1px;
-            transition: .3s all;
+            transition: .5s all;
             width: 24px;
             background-color: #C02F1D;
         }
         
         .loadMore:hover {
-            transition: .3s all;
+            transition: .5s all;
             color: #C02F1D;
         }
         
         .loadMore:hover:after {
             left: 92%;
-            transition: .3s all;
+            transition: .5s all;
         }
         /* about us  */
         
@@ -288,6 +289,7 @@
         .formContent .fa {
             color: #C02F1D;
             margin-left: 0;
+            transition: .5s all;
         }
         
         .formContent p span {
