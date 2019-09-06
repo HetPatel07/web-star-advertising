@@ -319,3 +319,10 @@
             width: 100%;
             resize: none;
         }
+        /* Large screens ----------- */
+        
+        @media only screen and (min-width: 1824px) {
+            .formMain::after {
+                width: 800px;
+            }
+        }
