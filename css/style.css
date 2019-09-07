@@ -19,7 +19,7 @@
         }
         
         .main {
-            padding-bottom: 50px;
+            padding-bottom: 80px;
         }
         
         .primaryColor {
@@ -196,7 +196,7 @@
             justify-content: flex-end;
             position: absolute;
             right: 0;
-            top: 20%;
+            top: 15%;
             z-index: -1;
         }
         
@@ -280,8 +280,13 @@
         }
         
         .servicesContentMain p {
+            line-height: 1.7;
             font-size: 18px;
             color: #727171;
+        }
+        
+        .servicesContentMain a {
+            text-decoration: none;
         }
         
         .imgToggle {
