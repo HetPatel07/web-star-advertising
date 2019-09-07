@@ -156,7 +156,7 @@
             display: inline-block;
         }
         
-        .imgMain img {
+        .imgMain.aboutImg img {
             width: 445px;
         }
         
@@ -377,5 +377,74 @@
         @media only screen and (min-width: 1824px) {
             .formMain::after {
                 width: 800px;
+            }
+        }
+        /* load more part */
+        
+        .loader-ellips {
+            font-size: 20px;
+            position: relative;
+            width: 4em;
+            height: 1em;
+            margin: 10px auto;
+        }
+        
+        .loader-ellips__dot {
+            display: block;
+            width: 1em;
+            height: 1em;
+            border-radius: 0.5em;
+            background: #555;
+            position: absolute;
+            animation-duration: 0.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+        
+        .loader-ellips__dot:nth-child(1) {
+            animation-name: reveal;
+        }
+        
+        .loader-ellips__dot:nth-child(2),
+        .loader-ellips__dot:nth-child(3) {
+            animation-name: slide;
+        }
+        
+        .loader-ellips__dot:nth-child(1),
+        .loader-ellips__dot:nth-child(2) {
+            left: 0;
+        }
+        
+        .loader-ellips__dot:nth-child(3) {
+            left: 1.5em;
+        }
+        
+        .loader-ellips__dot:nth-child(4) {
+            animation-name: reveal;
+            animation-direction: reverse;
+            left: 3em;
+        }
+        
+        .page-load-status {
+            display: none;
+            /* hidden by default */
+            padding-top: 20px;
+            border-top: 1px solid #DDD;
+            text-align: center;
+            color: #777;
+        }
+        
+        @keyframes reveal {
+            0% {
+                transform: scale(0.001);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes slide {
+            100% {
+                transform: translateX(1.5em);
             }
         }
