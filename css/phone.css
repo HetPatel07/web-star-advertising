@@ -98,6 +98,7 @@
         padding: 0px 10px;
     }
     .serviceImg {
+        width: 100%;
         text-align: center;
     }
     .serviceContent {

@@ -292,6 +292,10 @@
             width: 90%;
         }
         
+        .serviceImg img {
+            width: 100%;
+        }
+        
         .serviceImg {
             display: inline-block;
             position: relative;
