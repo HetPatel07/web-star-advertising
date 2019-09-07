@@ -400,10 +400,28 @@
             border-radius: 5px;
         }
         
+        .formContent .adInfo {
+            padding: 8px 0;
+        }
+        
         .formContent .fa {
             color: #C02F1D;
             margin-left: 0;
             transition: .5s all;
+        }
+        
+        .formContent .adInfo {
+            display: table;
+        }
+        
+        .formContent .adInfo p {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        .formContent .adInfo p:nth-child(1) {
+            margin: 0;
+            width: 30px;
         }
         
         .formContent p span {
